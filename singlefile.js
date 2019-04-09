@@ -59,7 +59,7 @@ async function registerBigToken(email, referral) {
 
     for(let i = 1; i <= loop; i++) {
         const doGetData = await generateData();
-        let emailVerified = ['creo.iotu.nctu.me', 'nasa.dmtc.edu.pl', 'derbydales.co.uk', 'aiot.vuforia.us', 'edu.creo.site', '50sale.edu.vn', 'aiot.aiphone.eu.org', 'edu.dmtc.press'];
+        let emailVerified = ['emakmintadomain.co'];
         emailVerified = emailVerified[Math.floor(Math.random() * emailVerified.length)];
         let email = `${doGetData.email}@${emailVerified}`
         try {
