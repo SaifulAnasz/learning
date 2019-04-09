@@ -86,7 +86,7 @@ async function registerBigToken(email, referral) {
         } else {
             statusRegister = false;
         }
-        await delay(25000);
+        await delay(500);
         try {
             cURL = await rp({
                 url: 'https://generator.email/inbox2/',
